@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f0f0f0;
+}
+
+.clock-container {
+    margin: 20px auto;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+}
+
+.clock {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+#clock {
+    margin: 20px;
+}
+
+.customization {
+    margin-top: 20px;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+#background-upload-label {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#greeting {
+    font-size: 20px;
+    margin-top: 10px;
+}
